@@ -1,3 +1,7 @@
 :root { 
   --surface-color: #F0E8C2;
+  font-family: "Alice", serif;
+  line-height: 150%;
+  --text-color-primary: #291B1A;
+  --text-color-secondary: #573A37;
 }
