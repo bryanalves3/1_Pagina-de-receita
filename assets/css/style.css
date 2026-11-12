@@ -1,12 +1,18 @@
 @import url(./variables.css);
 
+* {
+  color: var(--text-color-secondary);
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-image: url('/assets/images/bg-image.jpg');
+  background-image: url('/assets/images/bg-img.jpg');
   background-size: cover;
 }
 
-* {
-  color: var(--text-color-secondary);
+main {
+  padding: 24px;
 }
 
 #page {
@@ -18,15 +24,30 @@ body {
   margin: 48px auto;
 }
 
+#about p + p {
+  margin-top: 12px;
+}
+
+section + section {
+  margin-top: 24px;
+}
+
 h1 {
   line-height: 140%;
   font-size: 40px;
+  margin-bottom: 4px;
 }
 
 h2 {
-  font-size: 42px;
+  font-size: 24px;
 }
 
 h1, h2 {
   color: var(--text-color-primary);
+  margin-bottom: 4px;
+  line-height: 150%;
+}
+
+ul {
+  padding: 0px 26px 0px 26px;
 }
